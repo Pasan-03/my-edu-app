@@ -1,0 +1,80 @@
+/* styles/globals.css */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.banner {
+  background-image: url('/images/banner.jpg');
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+}
+
+.join-button {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-section {
+  padding: 40px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.experts-section {
+  padding: 40px;
+}
+
+.experts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.expert-card {
+  text-align: center;
+}
+
+.testimonials-section {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial {
+  max-width: 300px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+}
